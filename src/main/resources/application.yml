@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: weatherforecast
+openweather:
+  api:
+    forecast:
+      url: api.openweathermap.org/data/2.5/forecast
+      tempUnit: metric
+  authentication:
+    key: 46ea567b5d09828cf24dd69167f8cd1f
